@@ -1,0 +1,114 @@
+/* Selectores de reinicio*/
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div {
+    border: 1px solid;
+    border-color: red;
+}
+
+/* Selectores de estilos*/
+
+body {
+    background-color: black;
+    justify-content: center;
+    display: flex;
+}
+
+.Resume {
+    width: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    display: flex;
+    background-color: rgb(189, 227, 236);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0 10px 0;
+}
+
+.header_text {
+    width: 50%;
+}
+
+.header_text * {
+    padding: 2px;
+}
+
+.header_contact {
+    width: 50%;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+}
+
+.header_contact * {
+    padding: 2px;
+}
+
+.Skills_Conteiner {
+    display: flex;
+    gap: 10%;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0 10px 0;
+}
+
+.main_left {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main_left_Programming *{
+    margin: 5px 0 5px 5px;
+}
+
+.Main_left_Education *{
+    margin: 5px 0 5px 5px;
+}
+
+.main_right {
+    width: 50%;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main_right_Skills * {
+    margin: 5px 0 5px 5px;
+}
+
+.Skills_Conteiner p {
+    background-color: #539b9b;
+    color: white;
+    padding: 4px;
+    border: 1px solid #539b9b;
+    border-radius: 12%;
+}
+
+.main_right_Work *{
+    margin: 5px 0 0px 5px;
+}
+
+
+
+footer {
+    background-color: rgb(189, 227, 236);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 0 0;
+}
